@@ -10,7 +10,7 @@ for file in file_list:
                 line = f.readline()
                 if not line:
                     break
-                result = line.split("\n")[0]
+                result = line.split("\n")[0].lstrip("/")
                 new.add(result+"\n")
         new_file_name = ".".join(file.split(".")[0:2])
         with open(new_file_name, "a", encoding="utf-8") as w:
