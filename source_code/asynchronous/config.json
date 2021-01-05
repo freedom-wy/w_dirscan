@@ -1,0 +1,11 @@
+{
+  "name": "config",
+  "version": "1.0.0",
+  "config_item": {
+    "status_code": [200],
+    "proxy": "",
+    "timeout": 3,
+    "retry": 1,
+    "thread_pool": 20
+  }
+}
