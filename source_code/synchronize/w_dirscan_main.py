@@ -67,7 +67,7 @@ class Getdir(threading.Thread):
 def get_all_file(input_item):
     """获取字典列表"""
     if not input_item:
-        default_file = ["DIR.txt"]
+        default_file = ["DIR.TXT"]
         file_list = [os.path.join("yujian_dictionary", item) for item in default_file]
     else:
         file_list = [os.path.join("yujian_dictionary", item) for item in input_item]
